@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Paddingin marginden farkı sectionın içindeki içerik kaydırma */
+      * {
+        margin: 0px;
+      }
+      #showcase {
+        background-color: crimson;
+        padding: 100px;
+      }
+      h1 {
+        padding: 10px;
+        background-color: #62109f;
+        text-align: center;
+        /* border: 5px solid white; */
+
+        /* bu her koseye verir ve bu şekilde üstüne altına sağına soluna ayrı ayrı değer verebilirsin radius açılı verir border-width: 5px; */
+        border: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-style: solid;
+        border-color: pink;
+        border-radius: 100px;
+      }
+      #how-it-works {
+        padding: 100px;
+        background-color: darkcyan;
+      }
+      h2 {
+        background-color: #fcb53b;
+        padding: 50px;
+        text-align: center;
+      }
+      nav {
+        background-color: cyan;
+        padding: 10px;
+      }
+      a {
+        padding: 10px;
+        border: 2px solid red;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- borders -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Contact</a>
+    </nav>
+    <section id="showcase">
+      <h1>Welcome To MovieApp</h1>
+    </section>
+    <section id="how-it-works">
+      <h2>How it works?</h2>
+    </section>
+  </body>
+</html>
