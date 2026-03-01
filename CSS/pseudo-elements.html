@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+    <style>
+      p::first-line {
+        font-weight: bold;
+        color: brown;
+        word-spacing: 10px;
+        letter-spacing: 3px;
+      }
+      p.about::first-letter {
+        color: green;
+      }
+      p::first-letter {
+        font-size: 48px;
+      }
+      ::selection {
+        background-color: yellow;
+      }
+      p::after {
+        content: "\261D";
+        font-size: 100px;
+        padding: 156px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Elements -->
+
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+      quibusdam molestias quod libero minima praesentium corporis eligendi,
+      consequatur deserunt at! Assumenda veritatis officiis deleniti, esse ab
+      aliquam nesciunt rem asperiores?
+    </p>
+    <p class="about">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. A placeat
+      maiores quisquam quia vero ea necessitatibus voluptate eligendi labore
+      commodi distinctio sapiente explicabo quibusdam officiis, perspiciatis
+      repellat quis fugiat similique.
+    </p>
+  </body>
+</html>
