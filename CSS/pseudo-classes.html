@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo Classes</title>
+    <style>
+      a {
+        border: 1px solid gray;
+        padding: 5px 8px;
+        display: inline-block;
+        text-decoration: none;
+        width: 60px;
+        text-align: center;
+      }
+      a:link {
+        color: red;
+      }
+      a:visited {
+        color: green;
+      }
+      a:hover {
+        color: #fff;
+        background-color: yellow;
+      }
+      a:active {
+        color: #fff;
+        background-color: violet;
+      }
+
+      div:hover p {
+        background-color: red;
+        display: block;
+      }
+
+      p {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Pseudo Classes -->
+    <a href="borders.html">Home</a>
+    <a href="box-models-margin.html">Products</a>
+    <a href="combinators.html">About</a>
+
+    <div>
+      Click here:
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto
+        quibusdam molestias quod libero minima praesentium corporis eligendi,
+        consequatur deserunt at! Assumenda veritatis officiis deleniti, esse ab
+        aliquam nesciunt rem asperiores?
+      </p>
+    </div>
+  </body>
+</html>
