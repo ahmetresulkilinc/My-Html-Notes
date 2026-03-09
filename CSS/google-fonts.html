@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How It Works?</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Bitcount Prop Double Ink", system-ui;
+        font-optical-sizing: auto;
+      }
+
+      #showcase {
+        background: url("Ekran görüntüsü_20230205_031011.png");
+        background-position: top;
+        height: 600px;
+        width: 100%;
+        padding: 10px;
+      }
+
+      #how-it-works {
+        background-color: #fff;
+        height: 400px;
+        padding: 10px;
+        text-align: center;
+      }
+
+      .main-header {
+        background-color: #fc997c;
+        padding: 8px 16px;
+      }
+
+      .main-nav {
+        display: inline-block;
+        width: calc(100% - 102px);
+        text-align: right;
+        font-family: "Oswald", sans-serif;
+      }
+      .main-nav__items {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .main-nav__item {
+        display: inline-block;
+        margin: 0px 10px;
+      }
+      .main-header__logo {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 21px;
+      }
+      .main-nav__item a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .main-nav__item a:hover,
+      .main-nav__item:hover::before {
+        color: #2e4c6d;
+      }
+      .main-nav__item a:active,
+      .main-nav__item:active::before {
+        color: pink;
+      }
+      .main-nav__item::before {
+        content: "\2022";
+        color: #fff;
+      }
+      .main-nav__item--login a {
+        color: #fff;
+        background-color: #2e4c6d;
+        padding: 4px 16px;
+        border-radius: 8px;
+        border: solid #fff;
+      }
+      .main-nav__item--login::before {
+        content: none;
+      }
+      .main-nav__item--login a:hover {
+        color: #2e4c6d;
+        border: 2px solid;
+        background-color: #fff;
+      }
+      .row {
+        margin-bottom: 50px;
+      }
+      .colm {
+        display: inline-block;
+        margin: 8px;
+        padding: 16px;
+        width: 30%;
+      }
+      #how-it-works h2 {
+        color: #3e4555;
+        font-size: 30px;
+        font-weight: 600;
+      }
+      .icon-box h3 {
+        color: #3e4555;
+        font-size: 26px;
+      }
+      .icon-box i {
+        color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="main-header__logo">MovieApp</a>
+      <nav class="main-nav">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
+            <a href="#">Filmler</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#">Diziler</a>
+          </li>
+          <li class="main-nav__item main-nav__item--login">
+            <a href="#">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="showcase">
+        <h1>Welcome to MovieApp</h1>
+      </section>
+      <section id="how-it-works">
+        <div class="row">
+          <h2>How It Works?</h2>
+          <p>
+            We will show you step by step how to start watching your favorite
+            movies & TV shows starting now!
+          </p>
+        </div>
+        <div class="row">
+          <div class="icon-box colm">
+            <i class="fa-brands fa-wordpress"></i>
+            <h3>Register</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Accusamus quod ducimus sequi, libero repellendus molestias?
+            </p>
+          </div>
+          <div class="icon-box colm">
+            <i class="fa-brands fa-wordpress"></i>
+            <h3>Choose a Plan</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+              accusamus in rerum debitis, pariatur provident?
+            </p>
+          </div>
+          <div class="icon-box colm">
+            <i class="fa-brands fa-wordpress"></i>
+            <h3>Enjoy to Movie</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae
+              laboriosam obcaecati aut officia, itaque consequatur!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
