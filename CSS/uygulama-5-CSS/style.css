@@ -15,12 +15,12 @@ h3 {
   color: #fff;
 }
 
-.row1 {
+.menu {
   width: 25%;
 
   background-color: #fff;
 }
-.row2 {
+.content {
   width: 75%;
 
   background-color: #fff;
@@ -34,18 +34,18 @@ h3 {
   float: left;
   padding: 15px 15px 15px 0px;
 }
-.row1 ul {
+.menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-.row1 li {
+.menu li {
   padding: 10px;
   margin-bottom: 8px;
   background-color: #351c07;
   color: #fff;
 }
-.row1 li:hover {
+.menu li:hover {
   cursor: pointer;
   background-color: #500546;
 }
