@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -80,7 +82,7 @@ body {
 }
 
 main {
-  margin-top: 52px;
+  margin-top: 0;
 }
 .main-header {
   background-color: #fc997c;
@@ -223,6 +225,14 @@ main {
   padding: 5px;
   width: 33.3%;
   float: left;
+}
+.inner-plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+.inner-plan ul li {
+  margin-bottom: 5px;
 }
 
 .inner-plan {
