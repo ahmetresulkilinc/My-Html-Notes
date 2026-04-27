@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* Attribute Selector */
+      /* a[target] {
+        background-color: red;
+      }
+      [class] {
+        background-color: pink;
+      } */
+      /* Attribute Value Selector */
+      /* [class="active"] {
+        background-color: blue;
+      } */
+
+      /* Attribute '*' selector */
+      /* [class*="active"] {
+        background-color: blue;
+      } */
+
+      /* Attribute '~'(tilda) selector */
+      /* [class~="active"] {
+        background-color: red;
+      } */
+
+      /* Attribute '|' selector */
+      /* [class|="active"] {
+        background-color: red;
+      } */
+
+      /* Attribute '^' selector */
+      /* [class^="active"] {
+        background-color: red;
+      } */
+      /* Attribute '$' selector */
+      [class$="active"] {
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <span class="spanactive">text</span>
+      <a href="" target="_blank">home</a>
+      <a href="" class="active">about</a>
+      <a href="" class="link">contact</a>
+    </nav>
+  </body>
+</html>
